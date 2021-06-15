@@ -1,0 +1,31 @@
+Para fazer o split é necessario que tenha sido cadastrado um "recebedor"
+RECEBEDOR
+A transferência deve ser automática?
+Intervalo de transferência? (daily, weekly, monthly)
+dados da conta do recebedor:  
+"bank_account": {
+  "bank_code": "",
+  "agencia": "",
+  "agencia_dv": "",
+  "conta": "",
+  "type": "",
+  "conta_dv": "",
+  "document_number": "",
+  "legal_name": ""
+},
+
+ao criar um recebedor, o id 'e retornado
+  salvar esse id na tabela client como RecipientId?
+
+
+quem sera cobrado pelas taxas da transação?
+  pode ser mais de um
+
+quem assumirá os riscos de chargeback da transação?
+  pode ser mais de um
+
+no caso de restos de divisão de taxas entre os dois recebedores exista, quem será cobrado desses centavos?
+  apenas um
+
+Os custos de gateway e antifraude são de responsabilidade do recebedor principal, não podendo ser dividido via regras de divisão.
+O custo de saque é de responsabilidade do recebedor, não podendo ser dividido via regras de divisão.
